@@ -1,0 +1,6 @@
+title: testing portfolio
+logo: /assets/img/profile.png
+description: text below image
+remote_theme: pages-themes/dinky@v0.2.0
+theme: jekyll-theme-dinky
+plugins: jekyll-remote-theme # add this line to the plugins list if you already have one
