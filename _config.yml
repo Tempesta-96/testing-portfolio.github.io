@@ -3,3 +3,11 @@ logo: assets/img/Mushroom.jpg
 description: Business Analyst | Data Science | AI Solutions | Leadership
 remote_theme: pages-themes/dinky@v0.2.0
 theme: jekyll-theme-dinky
+
+# Tell Jekyll where to find your custom CSS
+defaults:
+  -
+    scope:
+      path: ""   # applies to the whole site
+    values:
+      css: "css/style.css"
