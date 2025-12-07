@@ -60,3 +60,11 @@ ul {
 .contact a:hover {
   text-decoration: underline;
 }
+.skill-pill {
+  transition: all 0.3s ease;
+}
+.skill-pill:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
