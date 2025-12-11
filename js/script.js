@@ -61,7 +61,7 @@
 
         // Create each timeline block
         $userContent.each(function() {
-            $(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
+            $(this).addClass('vtimeline-content bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
         });
 
         // Add icons to each block
