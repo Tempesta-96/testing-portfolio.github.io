@@ -28,33 +28,37 @@
     color: #555;
 } */
  body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
 }
 header {
-  background: #90D5FF;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background: #90D5FF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 section.fullpage {
     width: 100%;
     max-width: 100%;
-  padding: 20px;
-  //max-width: 900px;
-  margin: auto;
+    padding: 20px;
+    //max-width: 900px;
+    margin: auto;
 }
 h1, h2 {
-  color: #004080;
-  font-weight:700;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  align-items: center;
-  display: flex;
+    color: #004080;
+    font-weight:700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+
 }
 ul {
   list-style-type: square;
