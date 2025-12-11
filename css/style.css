@@ -82,7 +82,9 @@ ul {
 #education {
   margin: 30px auto 0 auto;
   position: relative;
-  max-width: 1000px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 #experience {
